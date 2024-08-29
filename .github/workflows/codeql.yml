@@ -11,10 +11,6 @@ on:
     branches:
       - develop
 
-permissions:
-  security-events: write  # Ensure the workflow has permission to write security events
-  actions: read
-
 jobs:
   analyze:
     runs-on: ubuntu-latest
