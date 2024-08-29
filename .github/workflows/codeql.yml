@@ -38,7 +38,3 @@ jobs:
       with:
         name: codeql-results-${{ matrix.language }}-${{ github.ref }}
         path: codeql-results
-
-    - name: Generate Report (Optional)
-      run: |
-        python generate_report.py --branch ${{ github.ref }}
