@@ -20,3 +20,4 @@ def get_user_data(username):
 if __name__ == "__main__":
     user_input = input("Enter a username: ")
     get_user_data(user_input)
+
