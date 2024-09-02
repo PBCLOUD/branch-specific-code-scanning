@@ -1,7 +1,6 @@
 import sqlite3
 import os
 
-# Vulnerable SQL Injection example
 def get_user_data(user_id):
     conn = sqlite3.connect('example.db')
     cursor = conn.cursor()
