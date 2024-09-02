@@ -10,7 +10,6 @@ def get_user_data(user_id):
     conn.close()
     return data
 
-# Insecure eval example
 def execute_code(user_input):
     # Warning: This is a dangerous use of eval()
     result = eval(user_input)
