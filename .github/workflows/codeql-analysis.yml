@@ -2,9 +2,9 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ develop ]
-    paths:
-        - '/develop.py'
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   schedule:
     - cron: '00 2 * * 1'
 
