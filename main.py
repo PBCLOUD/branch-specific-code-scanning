@@ -5,7 +5,7 @@ def get_user_data(username):
     conn = sqlite3.connect('example.db')
     cursor = conn.cursor()
 
-    # Insecure: Directly incorporating user input into SQL query
+    # Insecure: Directly incorporating user input into SQL query (SQL Injection Vulnerability)
     query = f"SELECT * FROM users WHERE username = '{username}'"
     cursor.execute(query)
     
@@ -18,6 +18,6 @@ def get_user_data(username):
 
 # Example usage
 if __name__ == "__main__":
-    user_input = input("Enter a username: ")
+    # Simulate user input that could be malicious
+    user_input = "admin' OR '1'='1"
     get_user_data(user_input)
-
