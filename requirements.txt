@@ -8,7 +8,7 @@
 sqlalchemy==1.4.47
 
 # Requests, if you're interacting with APIs
-requests==2.31.0
+requests==2.32.2
 
 # If using linting or type checking tools:
 flake8==6.1.0
