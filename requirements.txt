@@ -5,13 +5,13 @@
 # Uncomment the following lines if you decide to use external libraries that enhance security or utilities for your code.
 
 # SQLAlchemy could be used instead of raw SQL for secure database interaction
-# sqlalchemy==1.4.47
+sqlalchemy==1.4.47
 
 # Requests, if you're interacting with APIs
-# requests==2.31.0
+requests==2.31.0
 
 # If using linting or type checking tools:
-# flake8==6.1.0
-# mypy==1.5.1
+flake8==6.1.0
+mypy==1.5.1
 
 # If you're dealing with subprocesses more safely, you could explore subprocess.run() enhancements or os commands
