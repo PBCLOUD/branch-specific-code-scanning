@@ -11,7 +11,7 @@ sqlalchemy==1.4.47
 requests==2.31.0
 
 # If using linting or type checking tools:
-flake8==6.1.0
+flake8==7.1.1
 mypy==1.5.1
 
 # If you're dealing with subprocesses more safely, you could explore subprocess.run() enhancements or os commands
